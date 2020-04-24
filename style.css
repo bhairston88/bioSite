@@ -1,18 +1,20 @@
 body {
-  background-color: rgba(43, 88, 12, .5);
+  background-color: rgba(43, 88, 12, 0.5);
 }
 
 h1 {
   font-family: 'Allura', cursive;
   font-weight: 300;
   font-size: 7.451em;
-  color: #EDCD5C;
+  color: #EDCD5c;
+  padding-top: 10px;
 }
 
 header {
-  background-image: url("images/plant.png");
+  background-image: url("images/header3.jpg");
   border-radius: 20px;
   margin: 0px:
+  background-position: center center;
 }
 
 nav {
@@ -38,58 +40,53 @@ h2 {
 }
 
 .roots {
-  text-align: left;
+  text-align: center;
   width: 1000px;
-  height: 100px;
-  padding-left: 10px;
   background-image: url("images/roots.jpg");
-}
- 
-figure {
-  float: left;
-  width: 30%;
+  margin: 0 auto;
 }
 
+
 .veggies {
-  text-align: left;
+  text-align: center;
   width: 1000px;
-  height: 100px;
-  padding-left: 10px;
   background-image: url("images/vegetables.jpg");
+  margin: 0 auto;
 }
 
 .flowers {
-  text-align: left;
+  text-align: center;
   width: 1000px;
-  height: 100px;
-  padding-left: 10px;
   background-image: url("images/flowers.jpg");
+  margin: 0 auto;
 }
+
 
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.25em;
   font-color: 000000;
   line-height: 1.4em;
-  padding-top: 10px;
+  padding: 5px;
 }
 
 article {
-  background-color: rgba(237, 205, 92);
-  width: 1000px;
-  height: 350px;
+  display: flex;
+  background-color: rgb(237, 205, 92);
   border-radius: 20px;
+  width: 1000px;
+  margin: 0 auto;
 }
   
 img.large {
   width: 400px;
   height: 350px;
+  border-radius: 50%;
 }
 
 img.medium {
   width: 300px;
   height: 250px;
-  padding: 10px 10px 10px 0px;
 }
 
 img.small {
@@ -124,3 +121,13 @@ footer {
   clear: left;
 }
 
+#pics > figure {
+  display: inline-block;
+  padding: 100px 0 100px 0;
+}
+
+.garden {
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 20px;
+}
