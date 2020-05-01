@@ -1,0 +1,168 @@
+body {
+  background-color: rgba(43, 88, 12, 0.5);
+}
+
+h1 {
+  font-family: 'Allura', cursive;
+  font-weight: 300;
+  font-size: 7.451em;
+  color: #EDCD5c;
+  padding-top: 10px;
+}
+
+header {
+  background-image: url("images/header3.jpg");
+  border-radius: 20px;
+  margin: 0px:
+  background-position: center center;
+}
+
+nav {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.953em;
+  margin: 0 auto;
+  color: #F7B71D;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  text-align: center;
+}
+
+li {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+#first, #second, #third, #fourth {
+  border: 5px solid #F7B71D;
+  margin: 50px 100px 0px 100px;
+  background-color: rgba(0, 0, 0, .5);  
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3.815em;
+  color: #EDCD5C;
+}
+
+#roots {
+  text-align: center;
+  width: 1000px;
+  background-image: url("images/roots.jpg");
+  margin: 0 auto;
+}
+
+
+#veggies {
+  text-align: center;
+  width: 1000px;
+  background-image: url("images/vegetables.jpg");
+  margin: 0 auto;
+}
+
+#flowers {
+  text-align: center;
+  width: 1000px;
+  background-image: url("images/flowers.jpg");
+  margin: 0 auto;
+}
+
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25em;
+  color: #F7B71D;
+  line-height: 1.4em;
+  padding: 5px;
+}
+
+article {
+  display: flex;
+  //background-color: rgba(255, 255, 255, .9);
+  //background-color: #F7B71D;
+  //border: 5px double #F7B71D;
+  //border-radius: 20px;
+  width: 1000px;
+  margin: 0 auto;
+}
+  
+img.large {
+  width: 400px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+img.medium {
+  width: 300px;
+  height: 250px;
+}
+
+img.small {
+  width: 200px;
+  height: 150px;
+  padding-right: 10px;
+}
+
+figcaption {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: center;
+  color: #F7B71D;   
+}
+
+a:link {
+  text-decoration: none;
+  color: #F7B71D;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #F7B71D;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #F7B71D;
+}
+
+footer {
+}
+
+.clear {
+  clear: both;
+}
+
+#pics > figure {
+  display: inline-block;
+  padding: 100px 0 100px 0;
+}
+
+#garden {
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 20px;
+  clear: both;
+}
+
+#pictures > figure {
+  display: inline-block;
+  padding-left: 100px;
+  
+}
+
+a.special {
+  color: #EDCD5c;
+}
+
+a.menu {
+  font-size: 1.25em;
+  float: right;
+}
