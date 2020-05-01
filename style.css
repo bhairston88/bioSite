@@ -86,10 +86,6 @@ p {
 
 article {
   display: flex;
-  //background-color: rgba(255, 255, 255, .9);
-  //background-color: #F7B71D;
-  //border: 5px double #F7B71D;
-  //border-radius: 20px;
   width: 1000px;
   margin: 0 auto;
 }
