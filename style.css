@@ -41,10 +41,12 @@ li {
   padding-left: 50px;
 }
 
-#first, #second, #third, #fourth {
+article {
   border: 5px solid #F7B71D;
-  margin: 50px 100px 0px 100px;
-  background-color: rgba(0, 0, 0, .5);  
+  background-color: rgba(0, 0, 0, .5);
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;  
 }
 
 h2 {
@@ -81,17 +83,7 @@ p {
   font-size: 1.25em;
   color: #F7B71D;
   line-height: 1.4em;
-  padding: 5px;
-}
-
-article {
-  display: flex;
-  //background-color: rgba(255, 255, 255, .9);
-  //background-color: #F7B71D;
-  //border: 5px double #F7B71D;
-  //border-radius: 20px;
-  width: 1000px;
-  margin: 0 auto;
+  padding: 10px;
 }
   
 img.large {
@@ -147,13 +139,21 @@ footer {
 #pics > figure {
   display: inline-block;
   padding: 100px 0 100px 0;
+  clear: both;
+  margin-top: 50px;
+}
+
+#fourth {
+  border: 5px solid #F7B71D;
+  margin: 100px 100px 0px 100px;
+  background-color: rgba(0, 0, 0, .5);
 }
 
 #garden {
   margin: 0 auto;
   text-align: center;
   padding-left: 20px;
-  clear: both;
+  clear: right;
 }
 
 #pictures > figure {
@@ -167,11 +167,13 @@ a.special {
 
 a.menu {
   font-size: 1.25em;
-  float: right;
+  //float: right;
   color: rgb(43, 88, 12);
+  position: relative;
+  left: 90%;
 }
 
-#picscap {
+#inlinecaptions {
   color: rgb(43, 88, 12);
 }
 
